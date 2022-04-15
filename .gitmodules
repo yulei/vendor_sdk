@@ -40,3 +40,6 @@
 [submodule "nxp/mcux"]
 	path = nxp/mcux
 	url = https://github.com/NXPmicro/mcux-sdk.git
+[submodule "pico-sdk"]
+	path = pico-sdk
+	url = https://github.com/raspberrypi/pico-sdk.git
