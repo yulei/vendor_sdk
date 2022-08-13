@@ -197,6 +197,7 @@ usb_status usb_txfifo_write (usb_core_regs *usb_regs,
                              uint8_t  fifo_num, 
                              uint16_t byte_count)
 {
+#if 0
     uint32_t word_count = (byte_count + 3U) / 4U;
 
     __IO uint32_t *fifo = usb_regs->DFIFO[fifo_num];
@@ -208,6 +209,32 @@ usb_status usb_txfifo_write (usb_core_regs *usb_regs,
     }
 
     return USB_OK;
+#else
+
+    uint16_t full_words = byte_count >> 2;
+    __IO uint32_t *fifo = usb_regs->DFIFO[fifo_num];
+
+    for(uint16_t i = 0; i < full_words; i++){
+        *fifo = (src_buf[3] << 24) | (src_buf[2] << 16) | (src_buf[1] << 8) | src_buf[0];
+        src_buf += 4;
+    }
+
+    // Write the remaining 1-3 bytes into fifo
+    uint8_t bytes_rem = byte_count & 0x03;
+    if(bytes_rem){
+        uint32_t tmp_word = 0;
+        tmp_word |= src_buf[0];
+        if(bytes_rem > 1){
+        tmp_word |= src_buf[1] << 8;
+        }
+        if(bytes_rem > 2){
+        tmp_word |= src_buf[2] << 16;
+        }
+        *fifo = tmp_word;
+    }
+
+    return USB_OK;
+#endif
 }
 
 /*!
@@ -220,6 +247,7 @@ usb_status usb_txfifo_write (usb_core_regs *usb_regs,
 */
 void *usb_rxfifo_read (usb_core_regs *usb_regs, uint8_t *dest_buf, uint16_t byte_count)
 {
+#if 0
     uint32_t word_count = (byte_count + 3U) / 4U;
 
     __IO uint32_t *fifo = usb_regs->DFIFO[0];
@@ -231,6 +259,34 @@ void *usb_rxfifo_read (usb_core_regs *usb_regs, uint8_t *dest_buf, uint16_t byte
     }
 
     return ((void *)dest_buf);
+#else
+    uint16_t full_words = byte_count >> 2;
+    __IO uint32_t *fifo = usb_regs->DFIFO[0];
+
+    for(uint16_t i = 0; i < full_words; i++) {
+        uint32_t tmp = *fifo;
+        dest_buf[0] = tmp & 0x000000FF;
+        dest_buf[1] = (tmp & 0x0000FF00) >> 8;
+        dest_buf[2] = (tmp & 0x00FF0000) >> 16;
+        dest_buf[3] = (tmp & 0xFF000000) >> 24;
+        dest_buf += 4;
+    }
+
+    // Read the remaining
+    uint8_t bytes_rem = byte_count & 0x03;
+    if(bytes_rem != 0) {
+        uint32_t tmp = *fifo;
+        dest_buf[0] = tmp & 0x000000FF;
+        if(bytes_rem > 1) {
+            dest_buf[1] = (tmp & 0x0000FF00) >> 8;
+        }
+        if(bytes_rem > 2) {
+            dest_buf[2] = (tmp & 0x00FF0000) >> 16;
+        }
+        dest_buf += bytes_rem;
+    }
+    return ((void *)dest_buf);
+#endif
 }
 
 /*!
