@@ -43,3 +43,9 @@
 [submodule "pico-sdk"]
 	path = pico-sdk
 	url = https://github.com/raspberrypi/pico-sdk.git
+[submodule "st/driver_g4"]
+	path = st/driver_g4
+	url = https://github.com/STMicroelectronics/stm32g4xx_hal_driver.git
+[submodule "st/device_g4"]
+	path = st/device_g4
+	url = https://github.com/STMicroelectronics/cmsis_device_g4.git
