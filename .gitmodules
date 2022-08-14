@@ -49,3 +49,6 @@
 [submodule "st/device_g4"]
 	path = st/device_g4
 	url = https://github.com/STMicroelectronics/cmsis_device_g4.git
+[submodule "nuvoton/m480bsp"]
+	path = nuvoton/m480bsp
+	url = https://github.com/OpenNuvoton/M480BSP.git
