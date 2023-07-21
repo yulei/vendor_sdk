@@ -807,7 +807,7 @@ typedef enum en_int_src
     /* CAN */
     INT_CAN_INT             = 486U,
 
-    INT_MAX                 = 511U,
+    IINT_MAX                 = 511U,
 }en_int_src_t;
 
 /******************************************************************************/

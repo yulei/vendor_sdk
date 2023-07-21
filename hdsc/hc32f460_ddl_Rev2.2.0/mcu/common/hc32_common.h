@@ -179,10 +179,14 @@ typedef enum en_result
 #define BCD2DEC(x)                      ((((x) >> 4u) * 10u) + ((x) & 0x0Fu))
 
 /*! Returns the minimum value out of two values */
+#if !defined(MIN)
 #define MIN(x, y)                       ((x) < (y) ? (x) : (y))
+#endif
 
 /*! Returns the maximum value out of two values */
+#if !defined(MAX)
 #define MAX(x, y)                       ((x) > (y) ? (x) : (y))
+#endif
 
 /*! Returns the dimension of an array */
 #define ARRAY_SZ(X)                     (sizeof((X)) / sizeof((X)[0]))

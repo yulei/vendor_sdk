@@ -1309,7 +1309,7 @@ void PWC_enNvicBackup(void)
 {
     uint8_t u8Cnt;
     stc_intc_sel_field_t *stcIntSel;
-    uint32_t u32WakeupSrc = INT_MAX;
+    uint32_t u32WakeupSrc = IINT_MAX;
 
     /* Backup NVIC set enable register for IRQ0~143*/
     for (u8Cnt = 0u; u8Cnt < sizeof(NVIC_ISER_BAK)/sizeof(uint32_t); u8Cnt++)
@@ -1487,7 +1487,7 @@ void PWC_enNvicBackup(void)
             }
         }
         /* Disable NVIC for all none-wakeup source */
-        else if (INT_MAX != stcIntSel->INTSEL)
+        else if (IINT_MAX != stcIntSel->INTSEL)
         {
             NVIC_DisableIRQ((IRQn_Type)u8Cnt);
         }
