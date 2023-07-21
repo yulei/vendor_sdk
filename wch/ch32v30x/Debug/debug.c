@@ -10,6 +10,8 @@
 *******************************************************************************/
 #include "debug.h"
 
+#define DEBUG DEBUG_UART
+
 static uint8_t  p_us = 0;
 static uint16_t p_ms = 0;
 
@@ -87,8 +89,10 @@ void Delay_Ms(uint32_t n)
  */
 void USART_Printf_Init(uint32_t baudrate)
 {
+#ifdef DEBUG
     GPIO_InitTypeDef  GPIO_InitStructure;
     USART_InitTypeDef USART_InitStructure;
+#endif
 
 #if(DEBUG == DEBUG_UART1)
     RCC_APB2PeriphClockCmd(RCC_APB2Periph_USART1 | RCC_APB2Periph_GPIOA, ENABLE);
@@ -118,12 +122,14 @@ void USART_Printf_Init(uint32_t baudrate)
 
 #endif
 
+#ifdef DEBUG
     USART_InitStructure.USART_BaudRate = baudrate;
     USART_InitStructure.USART_WordLength = USART_WordLength_8b;
     USART_InitStructure.USART_StopBits = USART_StopBits_1;
     USART_InitStructure.USART_Parity = USART_Parity_No;
     USART_InitStructure.USART_HardwareFlowControl = USART_HardwareFlowControl_None;
     USART_InitStructure.USART_Mode = USART_Mode_Tx;
+#endif
 
 #if(DEBUG == DEBUG_UART1)
     USART_Init(USART1, &USART_InitStructure);
@@ -178,7 +184,7 @@ __attribute__((used)) int _write(int fd, char *buf, int size)
  *
  * @return  size: Data length
  */
-void *_sbrk(ptrdiff_t incr)
+__attribute__((used)) void *_sbrk(ptrdiff_t incr)
 {
     extern char _end[];
     extern char _heap_end[];
