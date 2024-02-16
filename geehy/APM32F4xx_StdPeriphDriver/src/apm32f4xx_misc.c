@@ -130,7 +130,7 @@ void NVIC_EnableIRQRequest(IRQn_Type irq, uint8_t preemptionPriority, uint8_t su
     tempPriority = preemptionPriority << tempPrePri;
     tempPriority |= subPriority & (0x0f >> tempSubPri);
     tempPriority <<= 4;
-    NVIC->IP[irq] = (uint8_t)tempPriority;
+    NVIC->IPR[irq] = (uint8_t)tempPriority;
 
     /** enable the selected IRQ */
     NVIC->ISER[irq >> 0x05U] = (uint32_t)0x01U << (irq & (uint8_t)0x1FU);
