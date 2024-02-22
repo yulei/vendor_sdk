@@ -26,6 +26,8 @@ MEMORY
 
 ENTRY(Reset_Handler)
 
+_Min_Heap_Size = 0x800;      /* required amount of heap  */
+
 SECTIONS
 {
     .vectors :
@@ -174,6 +176,7 @@ SECTIONS
         PROVIDE(_end = .);
         *(.heap*)
         . = ALIGN(8);
+        . = . + _Min_Heap_Size;
         __HeapLimit = .;
 
         __StackLimit = .;
@@ -192,7 +195,7 @@ SECTIONS
     .ARM.attributes 0 : { *(.ARM.attributes) }
 
     PROVIDE(_stack = __StackTop);
-    PROVIDE(_Min_Heap_Size = __HeapLimit - __HeapBase);
+    /*PROVIDE(_Min_Heap_Size = __HeapLimit - __HeapBase);*/
     PROVIDE(_Min_Stack_Size = __StackTop - __StackLimit);
 
     __RamEnd = ORIGIN(RAM) + LENGTH(RAM);
