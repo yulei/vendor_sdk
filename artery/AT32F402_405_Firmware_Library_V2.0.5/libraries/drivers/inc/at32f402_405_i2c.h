@@ -418,7 +418,7 @@ typedef struct
   */
 
 void i2c_reset(i2c_type *i2c_x);
-void i2c_init(i2c_type *i2c_x, uint8_t dfilters, uint32_t clk);
+void i2c_init_at32(i2c_type *i2c_x, uint8_t dfilters, uint32_t clk);
 void i2c_own_address1_set(i2c_type *i2c_x, i2c_address_mode_type mode, uint16_t address);
 void i2c_own_address2_set(i2c_type *i2c_x, uint8_t address, i2c_addr2_mask_type mask);
 void i2c_own_address2_enable(i2c_type *i2c_x, confirm_state new_state);

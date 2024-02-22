@@ -96,7 +96,7 @@ void spi_default_para_init(spi_init_type* spi_init_struct)
   * @param  spi_init_struct : pointer to a spi_init_type structure which will be initialized.
   * @retval none
   */
-void spi_init(spi_type* spi_x, spi_init_type* spi_init_struct)
+void spi_init_at32(spi_type* spi_x, spi_init_type* spi_init_struct)
 {
   spi_x->i2sctrl_bit.i2smsel = FALSE;
   if(spi_init_struct->transmission_mode == SPI_TRANSMIT_FULL_DUPLEX)

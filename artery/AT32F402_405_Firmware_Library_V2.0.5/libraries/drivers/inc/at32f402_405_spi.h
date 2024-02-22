@@ -285,8 +285,8 @@ typedef struct
   i2s_data_channel_format_type           data_channel_format;        /*!< data bit num and channel bit num selection */
   i2s_clock_polarity_type                clock_polarity;             /*!< clock polarity selection */
   confirm_state                          mclk_output_enable;         /*!< mclk_output selection */
-  uint32_t                               i2s_ckin_value;             /*!< i2s clock input walue£ºthis parameter only used in i2sf */
-  i2s_pcm_sample_clock_type              pcm_sample_clock_selection; /*!< i2s pcm mode sample clock selection£ºthis parameter only used in i2sf */
+  uint32_t                               i2s_ckin_value;             /*!< i2s clock input walueï¿½ï¿½this parameter only used in i2sf */
+  i2s_pcm_sample_clock_type              pcm_sample_clock_selection; /*!< i2s pcm mode sample clock selectionï¿½ï¿½this parameter only used in i2sf */
 } i2s_init_type;
 
 /**
@@ -487,7 +487,7 @@ typedef struct
 
 void spi_i2s_reset(spi_type *spi_x);
 void spi_default_para_init(spi_init_type* spi_init_struct);
-void spi_init(spi_type* spi_x, spi_init_type* spi_init_struct);
+void spi_init_at32(spi_type* spi_x, spi_init_type* spi_init_struct);
 void spi_ti_mode_enable(spi_type* spi_x, confirm_state new_state);
 void spi_crc_next_transmit(spi_type* spi_x);
 void spi_crc_polynomial_set(spi_type* spi_x, uint16_t crc_poly);

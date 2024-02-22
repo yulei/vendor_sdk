@@ -74,7 +74,7 @@ void i2c_reset(i2c_type *i2c_x)
   * @param  clk: i2c clock control register (0x00000000~0xFFFFFFFF).
   * @retval none
   */
-void i2c_init(i2c_type *i2c_x, uint8_t dfilters, uint32_t clk)
+void i2c_init_at32(i2c_type *i2c_x, uint8_t dfilters, uint32_t clk)
 {
   /* disable i2c peripheral */
   i2c_x->ctrl1_bit.i2cen = FALSE;
