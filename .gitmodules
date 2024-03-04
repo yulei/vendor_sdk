@@ -37,3 +37,9 @@
 [submodule "nuvoton/m480"]
 	path = nuvoton/m480
 	url = https://github.com/OpenNuvoton/M480BSP.git
+[submodule "st/device_u5"]
+	path = st/device_u5
+	url = https://github.com/STMicroelectronics/cmsis_device_u5.git
+[submodule "st/driver_u5"]
+	path = st/driver_u5
+	url = https://github.com/STMicroelectronics/stm32u5xx_hal_driver.git
