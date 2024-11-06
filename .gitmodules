@@ -43,3 +43,6 @@
 [submodule "st/driver_u5"]
 	path = st/driver_u5
 	url = https://github.com/STMicroelectronics/stm32u5xx_hal_driver.git
+[submodule "nuvoton/m460"]
+	path = nuvoton/m460
+	url = https://github.com/OpenNuvoton/m460bsp.git
