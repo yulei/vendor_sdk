@@ -1,0 +1,1795 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>4</fileVersion>
+    <fileChecksum>442040001</fileChecksum>
+    <configuration>
+        <name>GD32H73x_75x_USBFS</name>
+        <outputs>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_usbhs_library\driver\Source\drv_usb_dev.c</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBFS\Obj\flash_if.pbi</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_usbhs_library\device\class\dfu\Source\dfu_mem.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\CMSIS\GD\GD32H73x_75x\Source\IAR\startup_gd32h73x_75x.s</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBFS\Obj\gd32h759i_eval.o</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBFS\Obj\gd32h73x_75x_it.__cstat.et</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBFS\Obj\gd32h73x_75x_exti.pbi</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBFS\Obj\gd32h73x_75x_it.pbi</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBFS\Obj\gd32h759i_eval.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBFS\Obj\gd32h73x_75x_it.o</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Source\gd32h73x_75x_usart.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_usbhs_library\device\core\Source\usbd_core.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Source\gd32h73x_75x_timer.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_usbhs_library\device\core\Source\usbd_transc.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_usbhs_library\driver\Source\drv_usbd_int.c</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBFS\Obj\app.pbi</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_usbhs_library\device\core\Source\usbd_enum.c</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBFS\Obj\gd32h73x_75x_fmc.pbi</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBFS\Obj\gd32h73x_75x_usb_hw.pbi</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBFS\Obj\system_gd32h73x_75x.pbi</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBFS\Obj\gd32h73x_75x_gpio.pbi</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBFS\Obj\gd32h73x_75x_efuse.pbi</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_usbhs_library\driver\Source\drv_usb_core.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_usbhs_library\device\class\dfu\Source\dfu_core.c</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBFS\Obj\system_gd32h73x_75x.__cstat.et</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBFS\Obj\gd32h73x_75x_efuse.__cstat.et</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBFS\Obj\drv_usbd_int.o</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBFS\Obj\gd32h73x_75x_exti.__cstat.et</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBFS\Obj\app.__cstat.et</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBFS\Obj\gd32h73x_75x_fmc.o</file>
+            <file>$PROJ_DIR$\..\src\app.c</file>
+            <file>$PROJ_DIR$\..\src\flash_if.c</file>
+            <file>$PROJ_DIR$\..\src\gd32h73x_75x_it.c</file>
+            <file>$PROJ_DIR$\..\src\gd32h73x_75x_usb_hw.c</file>
+            <file>$PROJ_DIR$\..\readme.txt</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Utilities\gd32h759i_eval.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Source\gd32h73x_75x_efuse.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Source\gd32h73x_75x_exti.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Source\gd32h73x_75x_fmc.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Source\gd32h73x_75x_misc.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Source\gd32h73x_75x_pmu.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Source\gd32h73x_75x_rcu.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\CMSIS\GD\GD32H73x_75x\Source\system_gd32h73x_75x.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Source\gd32h73x_75x_gpio.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Source\gd32h73x_75x_syscfg.c</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBFS\Obj\gd32h73x_75x_gpio.__cstat.et</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBFS\Obj\gd32h73x_75x_misc.__cstat.et</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBFS\Obj\drv_usb_core.__cstat.et</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Include\gd32h73x_75x_mdma.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_usbhs_library\driver\Include\drv_usb_core.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Include\gd32h73x_75x_enet.h</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBFS\Obj\usbd_core.__cstat.et</file>
+            <file>$PROJ_DIR$\..\inc\usb_conf.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_usbhs_library\driver\Include\drv_usb_regs.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_usbhs_library\device\class\dfu\Include\dfu_core.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Utilities\gd32h759i_eval.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_usbhs_library\device\core\Include\usbd_core.h</file>
+            <file>$TOOLKIT_DIR$\CMSIS\Core\Include\cmsis_iccarm.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Include\gd32h73x_75x_hwsem.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\CMSIS\GD\GD32H73x_75x\Include\system_gd32h73x_75x.h</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBFS\Obj\gd32h73x_75x_fmc.__cstat.et</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBFS\Obj\usbd_transc.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Include\gd32h73x_75x_i2c.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Include\gd32h73x_75x_hau.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Include\gd32h73x_75x_hpdf.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Include\gd32h73x_75x_efuse.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Include\gd32h73x_75x_wwdgt.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Include\gd32h73x_75x_fwdgt.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Include\gd32h73x_75x_axiim.h</file>
+            <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBFS\Obj\gd32h73x_75x_syscfg.__cstat.et</file>
+            <file>$PROJ_DIR$\..\inc\bss.h</file>
+            <file>$TOOLKIT_DIR$\CMSIS\Core\Include\cmsis_compiler.h</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBFS\Obj\gd32h73x_75x_exti.o</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBFS\Obj\drv_usb_dev.__cstat.et</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBFS\Obj\gd32h73x_75x_usart.__cstat.et</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_usbhs_library\driver\Include\drv_usb_hw.h</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBFS\Obj\flash_if.__cstat.et</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBFS\Obj\startup_gd32h73x_75x.o</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBFS\Obj\flash_if.o</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBFS\Obj\dfu_core.__cstat.et</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBFS\Obj\system_gd32h73x_75x.o</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBFS\Obj\dfu_mem.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\CMSIS\Core\Include\cmsis_version.h</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBFS\Obj\gd32h73x_75x_rcu.o</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBFS\Obj\gd32h73x_75x_pmu.__cstat.et</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBFS\Obj\usbd_enum.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\CMSIS\Core\Include\mpu_armv7.h</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBFS\Obj\gd32h73x_75x_usb_hw.__cstat.et</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBFS\Obj\drv_usb_dev.o</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Include\gd32h73x_75x_gpio.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\CMSIS\GD\GD32H73x_75x\Include\gd32h73x_75x.h</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBFS\Obj\gd32h73x_75x_usb_hw.o</file>
+            <file>$TOOLKIT_DIR$\CMSIS\Core\Include\core_cm7.h</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBFS\Obj\gd32h73x_75x_rcu.__cstat.et</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Include\gd32h73x_75x_fmc.h</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBFS\Obj\gd32h73x_75x_timer.__cstat.et</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBFS\Exe\dfu.hex</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBFS\Obj\drv_usbd_int.__cstat.et</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBFS\Obj\usbd_core.o</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBFS\Obj\usbd_enum.o</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBFS\Obj\gd32h759i_eval.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+            <file>$PROJ_DIR$\..\inc\gd32h73x_75x_libopt.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Include\gd32h73x_75x_ospim.h</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBFS\Obj\gd32h73x_75x_efuse.o</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Include\gd32h73x_75x_crc.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Include\gd32h73x_75x_trigsel.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Include\gd32h73x_75x_timer.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Include\gd32h73x_75x_exmc.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Include\gd32h73x_75x_rameccmu.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Include\gd32h73x_75x_lpdts.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Include\gd32h73x_75x_sdio.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\inttypes.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\wchar.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_usbhs_library\driver\Include\drv_usbd_int.h</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBFS\Obj\gd32h73x_75x_timer.o</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Include\gd32h73x_75x_can.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Include\gd32h73x_75x_rcu.h</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBFS\Obj\gd32h73x_75x_misc.o</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Include\gd32h73x_75x_rtc.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Include\gd32h73x_75x_cpdm.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Include\gd32h73x_75x_dbg.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Include\gd32h73x_75x_edout.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_usbhs_library\driver\Include\drv_usb_dev.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Include\gd32h73x_75x_ospi.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Include\gd32h73x_75x_tli.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Include\gd32h73x_75x_rtdec.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Include\gd32h73x_75x_dac.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_usbhs_library\device\class\dfu\Include\dfu_mem.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Include\gd32h73x_75x_cmp.h</file>
+            <file>$PROJ_DIR$\..\inc\flash_if.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Include\gd32h73x_75x_exti.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Include\gd32h73x_75x_adc.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Include\gd32h73x_75x_spi.h</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBFS\Obj\gd32h73x_75x_usart.o</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Include\gd32h73x_75x_rspdif.h</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBFS\Obj\dfu_mem.o</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBFS\List\dfu.map</file>
+            <file>$PROJ_DIR$\..\inc\gd32h73x_75x_it.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Include\gd32h73x_75x_dci.h</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBFS\Obj\drv_usb_core.o</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Include\gd32h73x_75x_cau.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Include\gd32h73x_75x_dma.h</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBFS\Obj\usbd_transc.o</file>
+            <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Include\gd32h73x_75x_fac.h</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBFS\Obj\gd32h73x_75x_gpio.o</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBFS\Obj\gd32h73x_75x_pmu.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\iccarm_builtin.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Include\gd32h73x_75x_ctc.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Include\gd32h73x_75x_pmu.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Include\gd32h73x_75x_sai.h</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBFS\Obj\drv_usb_dev.pbi</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Include\gd32h73x_75x_mdio.h</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBFS\Obj\dfu_mem.pbi</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBFS\Obj\dfu_core.pbi</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBFS\Obj\dfu_core.o</file>
+            <file>$TOOLKIT_DIR$\config\linker\GD\GD32H759xM.icf</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBFS\Obj\gd32h73x_75x_syscfg.o</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBFS\Obj\app.o</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_usbhs_library\device\core\Include\usbd_enum.h</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBFS\Obj\drv_usb_core.pbi</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Include\gd32h73x_75x_tmu.h</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBFS\Obj\usbd_transc.pbi</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Include\gd32h73x_75x_syscfg.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_usbhs_library\ustd\common\usb_ch9_std.h</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBFS\Obj\gd32h73x_75x_timer.pbi</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBFS\Obj\gd32h73x_75x_misc.pbi</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBFS\Obj\drv_usbd_int.pbi</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Include\gd32h73x_75x_trng.h</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBFS\Obj\gd32h73x_75x_pmu.pbi</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBFS\Exe\dfu.out</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBFS\Obj\gd32h73x_75x_rcu.pbi</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Include\gd32h73x_75x_vref.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Include\gd32h73x_75x_ipa.h</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBFS\Obj\dfu.pbd</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_usbhs_library\device\core\Include\usbd_transc.h</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBFS\Obj\gd32h73x_75x_usart.pbi</file>
+            <file>$TOOLKIT_DIR$\lib\m7M_tlv.a</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBFS\Obj\usbd_enum.pbi</file>
+            <file>$PROJ_DIR$\..\inc\usbd_conf.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Include\gd32h73x_75x_misc.h</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBFS\Obj\gd32h73x_75x_syscfg.pbi</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Include\gd32h73x_75x_usart.h</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBFS\Obj\usbd_core.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Full.h</file>
+            <file>$TOOLKIT_DIR$\lib\dl7M_tlf.a</file>
+        </outputs>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 181 146</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_usbhs_library\driver\Source\drv_usb_dev.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 94</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 79</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 162</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 81 50 54 53 97 99 9 64 66 96 195 74 88 77 59 157 92 61 109 141 72 124 150 138 128 112 158 136 130 148 151 131 69 51 115 140 154 101 71 95 67 68 60 65 184 117 163 49 191 133 110 160 116 125 144 127 135 161 118 142 174 114 134 172 113 179 193 183 70 57 175 132 190 119 159</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 9 110 115 193 97 54 158 60 118 119 64 96 195 150 151 71 163 144 134 66 132 50 175 53 57 99 92 74 59 157 72 128 130 69 154 67 184 191 116 135 174 113 70 81 61 109 88 77 141 124 138 112 136 148 131 51 140 101 95 68 65 117 49 133 160 125 127 161 142 114 172 179 183 190 159</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_usbhs_library\device\class\dfu\Source\dfu_mem.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 145</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 87</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 164</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 137 190 53 97 99 9 64 66 96 195 74 88 77 59 157 92 61 109 141 72 124 150 138 128 112 158 136 130 148 151 131 69 51 115 140 154 101 71 95 67 68 60 65 184 117 163 49 191 133 110 160 116 125 144 127 135 161 118 142 174 114 134 172 113 179 193 183 70 57 139 119 159</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 142 109 136 97 65 61 88 66 141 140 160 183 137 119 77 138 131 95 49 127 172 139 190 53 57 99 9 92 64 124 112 148 51 101 68 117 133 125 161 114 179 96 195 74 59 157 72 150 128 158 130 151 69 115 154 71 67 60 184 163 191 110 116 144 135 118 174 134 113 193 70 159</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Firmware\CMSIS\GD\GD32H73x_75x\Source\IAR\startup_gd32h73x_75x.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 83</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Source\gd32h73x_75x_usart.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 143</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 80</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 187</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 193 97 99 9 64 66 96 195 74 88 77 59 157 92 61 109 141 72 124 150 138 128 112 158 136 130 148 151 131 69 51 115 140 154 101 71 95 67 68 60 65 184 117 163 49 191 133 110 160 116 125 144 127 135 161 118 142 174 114 134 172 113 179 183 70</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 130 174 97 157 184 9 72 154 116 70 99 66 74 59 128 69 67 191 135 113 61 109 88 77 96 195 150 158 151 115 71 60 163 110 144 118 134 193 92 64 141 124 138 112 136 148 131 51 140 101 95 68 65 117 49 133 160 125 127 161 142 114 172 179 183</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_usbhs_library\device\core\Source\usbd_core.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 105</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 52</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 194</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 81 50 54 53 97 99 9 64 66 96 195 74 88 77 59 157 92 61 109 141 72 124 150 138 128 112 158 136 130 148 151 131 69 51 115 140 154 101 71 95 67 68 60 65 184 117 163 49 191 133 110 160 116 125 144 127 135 161 118 142 174 114 134 172 113 179 193 183 70 57 175 58 132 190 170 121 159</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 97 96 9 134 64 151 163 53 195 150 71 144 190 170 50 175 158 115 60 110 118 193 58 54 57 99 92 74 59 157 72 128 130 69 154 67 184 191 116 135 174 113 70 132 159 81 61 109 88 77 66 141 124 138 112 136 148 131 51 140 101 95 68 65 117 49 133 160 125 127 161 142 114 172 179 183 121</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Source\gd32h73x_75x_timer.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 123</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 102</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 176</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 114 97 99 9 64 66 96 195 74 88 77 59 157 92 61 109 141 72 124 150 138 128 112 158 136 130 148 151 131 69 51 115 140 154 101 71 95 67 68 60 65 184 117 163 49 191 133 110 160 116 125 144 127 135 161 118 142 174 134 172 113 179 193 183 70</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 161 92 112 97 9 68 99 51 133 179 124 148 101 117 125 114 64 66 141 138 136 131 140 95 65 49 160 127 142 172 183 61 109 88 77 96 195 74 59 157 72 150 128 158 130 151 69 115 154 71 67 60 184 163 191 110 116 144 135 118 174 134 113 193 70</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_usbhs_library\device\core\Source\usbd_transc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 152</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 63</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 173</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 170 58 50 54 53 97 99 9 64 66 96 195 74 88 77 59 157 92 61 109 141 72 124 150 138 128 112 158 136 130 148 151 131 69 51 115 140 154 101 71 95 67 68 60 65 184 117 163 49 191 133 110 160 116 125 144 127 135 161 118 142 174 114 134 172 113 179 193 183 70 57 175 132 190 121 159 186</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 101 124 125 97 54 109 148 117 114 121 132 53 61 88 9 112 51 68 133 161 179 64 186 58 50 175 77 66 141 138 136 131 140 95 65 49 160 127 142 172 183 190 159 170 57 99 92 96 195 74 59 157 72 150 128 158 130 151 69 115 154 71 67 60 184 163 191 110 116 144 135 118 174 134 113 193 70</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_usbhs_library\driver\Source\drv_usbd_int.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 27</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 104</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 178</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 122 50 54 53 97 99 9 64 66 96 195 74 88 77 59 157 92 61 109 141 72 124 150 138 128 112 158 136 130 148 151 131 69 51 115 140 154 101 71 95 67 68 60 65 184 117 163 49 191 133 110 160 116 125 144 127 135 161 118 142 174 114 134 172 113 179 193 183 70 57 175 132 190 186 58 119 159</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 142 77 136 97 65 54 66 141 140 160 183 53 190 50 119 138 131 95 49 127 172 186 132 175 61 109 88 9 124 112 148 51 101 68 117 133 125 161 114 179 58 64 122 57 99 92 96 195 74 59 157 72 150 128 158 130 151 69 115 154 71 67 60 184 163 191 110 116 144 135 118 174 134 113 193 70 159</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_usbhs_library\device\core\Source\usbd_enum.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 106</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 91</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 189</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 170 58 50 54 53 97 99 9 64 66 96 195 74 88 77 59 157 92 61 109 141 72 124 150 138 128 112 158 136 130 148 151 131 69 51 115 140 154 101 71 95 67 68 60 65 184 117 163 49 191 133 110 160 116 125 144 127 135 161 118 142 174 114 134 172 113 179 193 183 70 57 175 132 190 121 159</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 74 92 128 97 135 67 121 132 57 99 9 59 69 191 113 157 72 130 154 184 116 174 70 50 53 66 54 64 96 195 150 158 151 115 71 60 163 110 144 118 134 193 58 175 61 109 88 77 141 124 138 112 136 148 131 51 140 101 95 68 65 117 49 133 160 125 127 161 142 114 172 179 183 190 159 170</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_usbhs_library\driver\Source\drv_usb_core.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 149</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 48</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 171</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 81 50 54 53 97 99 9 64 66 96 195 74 88 77 59 157 92 61 109 141 72 124 150 138 128 112 158 136 130 148 151 131 69 51 115 140 154 101 71 95 67 68 60 65 184 117 163 49 191 133 110 160 116 125 144 127 135 161 118 142 174 114 134 172 113 179 193 183 70 57 175</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 53 97 193 115 61 88 110 158 60 118 50 175 109 96 195 9 150 151 71 163 144 134 54 57 99 77 66 74 59 157 72 128 130 69 154 67 184 191 116 135 174 113 70 81 92 64 141 124 138 112 136 148 131 51 140 101 95 68 65 117 49 133 160 125 127 161 142 114 172 179 183</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_usbhs_library\device\class\dfu\Source\dfu_core.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 166</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 85</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 165</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 55 170 58 50 54 53 97 99 9 64 66 96 195 74 88 77 59 157 92 61 109 141 72 124 150 138 128 112 158 136 130 148 151 131 69 51 115 140 154 101 71 95 67 68 60 65 184 117 163 49 191 133 110 160 116 125 144 127 135 161 118 142 174 114 134 172 113 179 193 183 70 57 175 132 190 121 159 137 81 56 129</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 114 148 97 109 117 124 101 125 129 53 61 88 9 112 51 68 133 161 179 64 81 58 50 175 77 66 141 138 136 131 140 95 65 49 160 127 142 172 183 190 159 137 56 170 121 132 54 57 99 92 96 195 74 59 157 72 150 128 158 130 151 69 115 154 71 67 60 184 163 191 110 116 144 135 118 174 134 113 193 70 55</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\src\app.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 169</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 29</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 16</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 81 50 54 53 97 99 9 64 66 96 195 74 88 77 59 157 92 61 109 141 72 124 150 138 128 112 158 136 130 148 151 131 69 51 115 140 154 101 71 95 67 68 60 65 184 117 163 49 191 133 110 160 116 125 144 127 135 161 118 142 174 114 134 172 113 179 193 183 70 57 175 55 170 58 132 190 121 159</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 190 67 53 92 74 128 135 97 159 57 99 9 59 69 191 113 66 50 175 157 72 130 154 184 116 174 70 55 54 64 96 195 150 158 151 115 71 60 163 110 144 118 134 193 121 132 81 61 109 88 77 141 124 138 112 136 148 131 51 140 101 95 68 65 117 49 133 160 125 127 161 142 114 172 179 183 170 58</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\src\flash_if.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 84</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 82</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 1</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 139 137 190 53 97 99 9 64 66 96 195 74 88 77 59 157 92 61 109 141 72 124 150 138 128 112 158 136 130 148 151 131 69 51 115 140 154 101 71 95 67 68 60 65 184 117 163 49 191 133 110 160 116 125 144 127 135 161 118 142 174 114 134 172 113 179 193 183 70 57 76 120</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 195 97 150 144 190 71 57 99 9 92 64 96 151 163 134 53 158 115 60 110 118 193 76 137 61 109 88 77 74 59 157 72 128 130 69 154 67 184 191 116 135 174 113 70 139 66 141 124 138 112 136 148 131 51 140 101 95 68 65 117 49 133 160 125 127 161 142 114 172 179 183 120</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\src\gd32h73x_75x_it.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 10</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 5</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 7</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 147 53 97 99 9 64 66 96 195 74 88 77 59 157 92 61 109 141 72 124 150 138 128 112 158 136 130 148 151 131 69 51 115 140 154 101 71 95 67 68 60 65 184 117 163 49 191 133 110 160 116 125 144 127 135 161 118 142 174 114 134 172 113 179 193 183 70 57 122 50 54 175 132 190</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 174 97 130 57 99 9 157 184 72 154 116 70 132 50 66 74 59 128 69 67 191 135 113 53 122 61 109 88 77 96 195 150 158 151 115 71 60 163 110 144 118 134 193 54 147 92 64 141 124 138 112 136 148 131 51 140 101 95 68 65 117 49 133 160 125 127 161 142 114 172 179 183 175 190</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\src\gd32h73x_75x_usb_hw.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 98</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 93</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 19</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 81 50 54 53 97 99 9 64 66 96 195 74 88 77 59 157 92 61 109 141 72 124 150 138 128 112 158 136 130 148 151 131 69 51 115 140 154 101 71 95 67 68 60 65 184 117 163 49 191 133 110 160 116 125 144 127 135 161 118 142 174 114 134 172 113 179 193 183 70 57 175</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 99 97 57 9 193 115 110 158 60 118 175 96 195 150 151 71 163 144 134 50 54 53 61 109 88 77 66 74 59 157 72 128 130 69 154 67 184 191 116 135 174 113 70 81 92 64 141 124 138 112 136 148 131 51 140 101 95 68 65 117 49 133 160 125 127 161 142 114 172 179 183</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Utilities\gd32h759i_eval.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 4</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 107</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 8</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 57 97 99 9 64 66 96 195 74 88 77 59 157 92 61 109 141 72 124 150 138 128 112 158 136 130 148 151 131 69 51 115 140 154 101 71 95 67 68 60 65 184 117 163 49 191 133 110 160 116 125 144 127 135 161 118 142 174 114 134 172 113 179 193 183 70 119 159</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 65 136 142 97 99 9 92 66 141 140 160 183 64 96 138 131 95 49 127 172 119 61 109 88 77 124 112 148 51 101 68 117 133 125 161 114 179 57 195 74 59 157 72 150 128 158 130 151 69 115 154 71 67 60 184 163 191 110 116 144 135 118 174 134 113 193 70 159</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Source\gd32h73x_75x_efuse.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 111</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 26</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 22</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 69 97 99 9 64 66 96 195 74 88 77 59 157 92 61 109 141 72 124 150 138 128 112 158 136 130 148 151 131 51 115 140 154 101 71 95 67 68 60 65 184 117 163 49 191 133 110 160 116 125 144 127 135 161 118 142 174 114 134 172 113 179 193 183 70</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 110 61 88 115 193 97 109 96 195 9 158 60 118 77 66 74 59 150 151 71 163 144 134 99 92 64 157 72 128 130 69 154 67 184 191 116 135 174 113 70 141 124 138 112 136 148 131 51 140 101 95 68 65 117 49 133 160 125 127 161 142 114 172 179 183</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Source\gd32h73x_75x_exti.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 78</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 28</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 6</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 140 97 99 9 64 66 96 195 74 88 77 59 157 92 61 109 141 72 124 150 138 128 112 158 136 130 148 151 131 69 51 115 154 101 71 95 67 68 60 65 184 117 163 49 191 133 110 160 116 125 144 127 135 161 118 142 174 114 134 172 113 179 193 183 70</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 142 136 65 97 99 9 92 66 141 140 160 183 64 138 131 95 49 127 172 61 109 88 77 96 124 112 148 51 101 68 117 133 125 161 114 179 195 74 59 157 72 150 128 158 130 151 69 115 154 71 67 60 184 163 191 110 116 144 135 118 174 134 113 193 70</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Source\gd32h73x_75x_fmc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 30</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 62</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 18</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 101 97 99 9 64 66 96 195 74 88 77 59 157 92 61 109 141 72 124 150 138 128 112 158 136 130 148 151 131 69 51 115 140 154 71 95 67 68 60 65 184 117 163 49 191 133 110 160 116 125 144 127 135 161 118 142 174 114 134 172 113 179 193 183 70</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 110 97 99 9 115 193 158 60 118 96 195 150 151 71 163 144 134 61 109 88 77 66 74 59 157 72 128 130 69 154 67 184 191 116 135 174 113 70 101 92 64 141 124 138 112 136 148 131 51 140 95 68 65 117 49 133 160 125 127 161 142 114 172 179 183</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Source\gd32h73x_75x_misc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 126</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 47</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 177</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 191 97 99 9 64 66 96 195 74 88 77 59 157 92 61 109 141 72 124 150 138 128 112 158 136 130 148 151 131 69 51 115 140 154 101 71 95 67 68 60 65 184 117 163 49 133 110 160 116 125 144 127 135 161 118 142 174 114 134 172 113 179 193 183 70</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 160 97 141 66 140 183 99 9 92 136 65 142 64 138 131 95 49 127 172 61 109 88 77 96 195 74 59 124 112 148 51 101 68 117 133 125 161 114 179 191 157 72 150 128 158 130 151 69 115 154 71 67 60 184 163 110 116 144 135 118 174 134 113 193 70</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Source\gd32h73x_75x_pmu.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 156</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 90</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 180</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 160 97 99 9 64 66 96 195 74 88 77 59 157 92 61 109 141 72 124 150 138 128 112 158 136 130 148 151 131 69 51 115 140 154 101 71 95 67 68 60 65 184 117 163 49 191 133 110 116 125 144 127 135 161 118 142 174 114 134 172 113 179 193 183 70</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 97 65 66 136 142 77 141 140 160 183 61 109 88 96 138 131 95 49 127 172 99 9 92 64 124 112 148 51 101 68 117 133 125 161 114 179 195 74 59 157 72 150 128 158 130 151 69 115 154 71 67 60 184 163 191 110 116 144 135 118 174 134 113 193 70</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Source\gd32h73x_75x_rcu.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 89</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 100</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 182</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 125 97 99 9 64 66 96 195 74 88 77 59 157 92 61 109 141 72 124 150 138 128 112 158 136 130 148 151 131 69 51 115 140 154 101 71 95 67 68 60 65 184 117 163 49 191 133 110 160 116 144 127 135 161 118 142 174 114 134 172 113 179 193 183 70</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 97 128 74 135 67 66 59 69 191 113 77 157 72 130 154 184 116 174 70 61 109 88 96 195 9 150 158 151 115 71 60 163 110 144 118 134 193 125 99 92 64 141 124 138 112 136 148 131 51 140 101 95 68 65 117 49 133 160 127 161 142 114 172 179 183</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Firmware\CMSIS\GD\GD32H73x_75x\Source\system_gd32h73x_75x.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 86</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 25</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 20</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 97 99 9 64 66 96 195 74 88 77 59 157 92 61 109 141 72 124 150 138 128 112 158 136 130 148 151 131 69 51 115 140 154 101 71 95 67 68 60 65 184 117 163 49 191 133 110 160 116 125 144 127 135 161 118 142 174 114 134 172 113 179 193 183 70</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 9 101 124 125 97 64 148 117 114 99 92 112 51 68 133 161 179 61 109 88 77 66 96 141 138 136 131 140 95 65 49 160 127 142 172 183 195 74 59 157 72 150 128 158 130 151 69 115 154 71 67 60 184 163 191 110 116 144 135 118 174 134 113 193 70</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Source\gd32h73x_75x_gpio.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 155</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 46</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 21</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 95 97 99 9 64 66 96 195 74 88 77 59 157 92 61 109 141 72 124 150 138 128 112 158 136 130 148 151 131 69 51 115 140 154 101 71 67 68 60 65 184 117 163 49 191 133 110 160 116 125 144 127 135 161 118 142 174 114 134 172 113 179 193 183 70</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 97 67 74 128 135 99 9 92 59 69 191 113 64 157 72 130 154 184 116 174 70 61 109 88 77 66 96 195 150 158 151 115 71 60 163 110 144 118 134 193 95 141 124 138 112 136 148 131 51 140 101 68 65 117 49 133 160 125 127 161 142 114 172 179 183</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Source\gd32h73x_75x_syscfg.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 168</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 75</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 192</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 174 97 99 9 64 66 96 195 74 88 77 59 157 92 61 109 141 72 124 150 138 128 112 158 136 130 148 151 131 69 51 115 140 154 101 71 95 67 68 60 65 184 117 163 49 191 133 110 160 116 125 144 127 135 161 118 142 114 134 172 113 179 193 183 70</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 125 97 124 101 99 9 148 117 114 92 112 51 68 133 161 179 61 109 88 77 64 66 141 138 136 131 140 95 65 49 160 127 142 172 183 174 96 195 74 59 157 72 150 128 158 130 151 69 115 154 71 67 60 184 163 191 110 116 144 135 118 134 113 193 70</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\GD32H73x_75x_USBFS\Exe\dfu.hex</name>
+            <inputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 167 169 166 145 149 94 27 84 4 111 78 30 155 10 126 156 89 168 123 143 98 83 86 105 106 152 153 108 188 73</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\GD32H73x_75x_USBFS\Exe\dfu.out</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 146</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 167 169 166 145 149 94 27 84 4 111 78 30 155 10 126 156 89 168 123 143 98 83 86 105 106 152 153 108 188 196</file>
+                </tool>
+            </inputs>
+        </file>
+        <forcedrebuild>
+            <name>[REBUILD_ALL]</name>
+        </forcedrebuild>
+    </configuration>
+    <configuration>
+        <name>GD32H73x_75x_USBHS</name>
+        <outputs>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_usbhs_library\driver\Source\drv_usb_dev.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_usbhs_library\device\class\dfu\Source\dfu_mem.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\CMSIS\GD\GD32H73x_75x\Source\IAR\startup_gd32h73x_75x.s</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Source\gd32h73x_75x_usart.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_usbhs_library\device\core\Source\usbd_core.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Source\gd32h73x_75x_timer.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_usbhs_library\device\core\Source\usbd_transc.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_usbhs_library\driver\Source\drv_usbd_int.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_usbhs_library\device\core\Source\usbd_enum.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_usbhs_library\driver\Source\drv_usb_core.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_usbhs_library\device\class\dfu\Source\dfu_core.c</file>
+            <file>$PROJ_DIR$\..\src\app.c</file>
+            <file>$PROJ_DIR$\..\src\flash_if.c</file>
+            <file>$PROJ_DIR$\..\src\gd32h73x_75x_it.c</file>
+            <file>$PROJ_DIR$\..\src\gd32h73x_75x_usb_hw.c</file>
+            <file>$PROJ_DIR$\..\readme.txt</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Utilities\gd32h759i_eval.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Source\gd32h73x_75x_efuse.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Source\gd32h73x_75x_exti.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Source\gd32h73x_75x_fmc.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Source\gd32h73x_75x_misc.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Source\gd32h73x_75x_pmu.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Source\gd32h73x_75x_rcu.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\CMSIS\GD\GD32H73x_75x\Source\system_gd32h73x_75x.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Source\gd32h73x_75x_gpio.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Source\gd32h73x_75x_syscfg.c</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Include\gd32h73x_75x_mdma.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_usbhs_library\driver\Include\drv_usb_core.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Include\gd32h73x_75x_enet.h</file>
+            <file>$PROJ_DIR$\..\inc\usb_conf.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_usbhs_library\driver\Include\drv_usb_regs.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_usbhs_library\device\class\dfu\Include\dfu_core.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Utilities\gd32h759i_eval.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_usbhs_library\device\core\Include\usbd_core.h</file>
+            <file>$TOOLKIT_DIR$\CMSIS\Core\Include\cmsis_iccarm.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Include\gd32h73x_75x_hwsem.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\CMSIS\GD\GD32H73x_75x\Include\system_gd32h73x_75x.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Include\gd32h73x_75x_i2c.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Include\gd32h73x_75x_hau.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Include\gd32h73x_75x_hpdf.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Include\gd32h73x_75x_efuse.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Include\gd32h73x_75x_wwdgt.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Include\gd32h73x_75x_fwdgt.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Include\gd32h73x_75x_axiim.h</file>
+            <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$PROJ_DIR$\..\inc\bss.h</file>
+            <file>$TOOLKIT_DIR$\CMSIS\Core\Include\cmsis_compiler.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_usbhs_library\driver\Include\drv_usb_hw.h</file>
+            <file>$TOOLKIT_DIR$\CMSIS\Core\Include\cmsis_version.h</file>
+            <file>$TOOLKIT_DIR$\CMSIS\Core\Include\mpu_armv7.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Include\gd32h73x_75x_gpio.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\CMSIS\GD\GD32H73x_75x\Include\gd32h73x_75x.h</file>
+            <file>$TOOLKIT_DIR$\CMSIS\Core\Include\core_cm7.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Include\gd32h73x_75x_fmc.h</file>
+            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+            <file>$PROJ_DIR$\..\inc\gd32h73x_75x_libopt.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Include\gd32h73x_75x_ospim.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Include\gd32h73x_75x_crc.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Include\gd32h73x_75x_trigsel.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Include\gd32h73x_75x_timer.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Include\gd32h73x_75x_exmc.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Include\gd32h73x_75x_rameccmu.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Include\gd32h73x_75x_lpdts.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Include\gd32h73x_75x_sdio.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\inttypes.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\wchar.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_usbhs_library\driver\Include\drv_usbd_int.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Include\gd32h73x_75x_can.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Include\gd32h73x_75x_rcu.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Include\gd32h73x_75x_rtc.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Include\gd32h73x_75x_cpdm.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Include\gd32h73x_75x_dbg.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Include\gd32h73x_75x_edout.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_usbhs_library\driver\Include\drv_usb_dev.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Include\gd32h73x_75x_ospi.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Include\gd32h73x_75x_tli.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Include\gd32h73x_75x_rtdec.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Include\gd32h73x_75x_dac.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_usbhs_library\device\class\dfu\Include\dfu_mem.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Include\gd32h73x_75x_cmp.h</file>
+            <file>$PROJ_DIR$\..\inc\flash_if.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Include\gd32h73x_75x_exti.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Include\gd32h73x_75x_adc.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Include\gd32h73x_75x_spi.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Include\gd32h73x_75x_rspdif.h</file>
+            <file>$PROJ_DIR$\..\inc\gd32h73x_75x_it.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Include\gd32h73x_75x_dci.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Include\gd32h73x_75x_cau.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Include\gd32h73x_75x_dma.h</file>
+            <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Include\gd32h73x_75x_fac.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\iccarm_builtin.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Include\gd32h73x_75x_ctc.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Include\gd32h73x_75x_pmu.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Include\gd32h73x_75x_sai.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Include\gd32h73x_75x_mdio.h</file>
+            <file>$TOOLKIT_DIR$\config\linker\GD\GD32H759xM.icf</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_usbhs_library\device\core\Include\usbd_enum.h</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBHS\Obj\gd32h759i_eval.o</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBHS\Exe\dfu.out</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBHS\Obj\gd32h73x_75x_exti.pbi</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBHS\Obj\drv_usb_dev.o</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBHS\Obj\gd32h73x_75x_misc.o</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBHS\Obj\drv_usb_dev.__cstat.et</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBHS\Obj\flash_if.o</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBHS\Obj\gd32h73x_75x_it.o</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBHS\Obj\gd32h73x_75x_pmu.pbi</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBHS\Obj\app.pbi</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBHS\Obj\system_gd32h73x_75x.o</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBHS\Obj\gd32h73x_75x_efuse.o</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBHS\Obj\app.o</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBHS\Obj\dfu_core.o</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBHS\Obj\gd32h73x_75x_rcu.o</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBHS\Obj\gd32h73x_75x_syscfg.o</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBHS\Obj\gd32h73x_75x_rcu.pbi</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBHS\Obj\gd32h73x_75x_efuse.pbi</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBHS\Obj\drv_usb_core.o</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBHS\Obj\usbd_enum.o</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBHS\Obj\drv_usb_core.__cstat.et</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBHS\Obj\usbd_core.pbi</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBHS\Obj\gd32h73x_75x_fmc.o</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBHS\Obj\gd32h73x_75x_exti.__cstat.et</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBHS\Obj\gd32h73x_75x_misc.__cstat.et</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBHS\Obj\drv_usbd_int.o</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBHS\Obj\gd32h73x_75x_exti.o</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBHS\Obj\gd32h73x_75x_timer.o</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBHS\Obj\gd32h73x_75x_gpio.pbi</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBHS\Obj\flash_if.pbi</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBHS\Exe\dfu.hex</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBHS\Obj\usbd_enum.pbi</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBHS\Obj\gd32h73x_75x_pmu.o</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Include\gd32h73x_75x_tmu.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Include\gd32h73x_75x_syscfg.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_usbhs_library\ustd\common\usb_ch9_std.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Include\gd32h73x_75x_trng.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Include\gd32h73x_75x_vref.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Include\gd32h73x_75x_ipa.h</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_usbhs_library\device\core\Include\usbd_transc.h</file>
+            <file>$PROJ_DIR$\..\inc\usbd_conf.h</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBHS\Obj\drv_usbd_int.__cstat.et</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBHS\Obj\usbd_transc.__cstat.et</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Include\gd32h73x_75x_misc.h</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBHS\Obj\gd32h73x_75x_gpio.o</file>
+            <file>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Include\gd32h73x_75x_usart.h</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBHS\Obj\gd32h73x_75x_usb_hw.o</file>
+            <file>$TOOLKIT_DIR$\lib\m7M_tls.a</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBHS\Obj\gd32h73x_75x_it.__cstat.et</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBHS\Obj\gd32h73x_75x_usart.pbi</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBHS\Obj\drv_usb_dev.pbi</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBHS\Obj\startup_gd32h73x_75x.o</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBHS\Obj\app.__cstat.et</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBHS\Obj\gd32h73x_75x_syscfg.pbi</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBHS\Obj\gd32h73x_75x_timer.__cstat.et</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBHS\Obj\drv_usb_core.pbi</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBHS\Obj\gd32h73x_75x_fmc.pbi</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBHS\Obj\gd32h73x_75x_usb_hw.pbi</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBHS\Obj\gd32h73x_75x_misc.pbi</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBHS\Obj\gd32h73x_75x_usart.o</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBHS\List\dfu.map</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBHS\Obj\gd32h73x_75x_rcu.__cstat.et</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBHS\Obj\gd32h73x_75x_syscfg.__cstat.et</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBHS\Obj\drv_usbd_int.pbi</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBHS\Obj\gd32h73x_75x_pmu.__cstat.et</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBHS\Obj\usbd_core.o</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBHS\Obj\system_gd32h73x_75x.pbi</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBHS\Obj\dfu_mem.o</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBHS\Obj\gd32h73x_75x_usb_hw.__cstat.et</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBHS\Obj\gd32h73x_75x_fmc.__cstat.et</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBHS\Obj\dfu_mem.__cstat.et</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBHS\Obj\gd32h759i_eval.__cstat.et</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBHS\Obj\gd32h73x_75x_timer.pbi</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBHS\Obj\dfu_core.pbi</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBHS\Obj\gd32h73x_75x_efuse.__cstat.et</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBHS\Obj\gd32h73x_75x_gpio.__cstat.et</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBHS\Obj\usbd_enum.__cstat.et</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBHS\Obj\flash_if.__cstat.et</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBHS\Obj\usbd_transc.pbi</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBHS\Obj\dfu_mem.pbi</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBHS\Obj\gd32h759i_eval.pbi</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBHS\Obj\gd32h73x_75x_usart.__cstat.et</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBHS\Obj\system_gd32h73x_75x.__cstat.et</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBHS\Obj\usbd_transc.o</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBHS\Obj\usbd_core.__cstat.et</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBHS\Obj\dfu_core.__cstat.et</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBHS\Obj\gd32h73x_75x_it.pbi</file>
+            <file>$PROJ_DIR$\GD32H73x_75x_USBHS\Obj\dfu.pbd</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Full.h</file>
+            <file>$TOOLKIT_DIR$\lib\dl7M_tlf.a</file>
+        </outputs>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 108 167</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_usbhs_library\driver\Source\drv_usb_dev.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 110</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 112</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 157</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 52 28 31 30 57 58 3 39 41 56 195 49 53 51 36 99 54 38 61 90 47 74 95 87 77 63 100 85 79 94 96 80 44 29 66 89 98 59 46 55 42 43 37 40 145 68 104 27 150 82 62 102 67 75 92 76 84 103 69 91 141 65 83 140 64 143 152 144 45 34 142 81 147 70 101</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 3 62 30 66 152 57 31 100 37 69 70 39 56 195 95 96 46 104 92 83 41 81 28 142 34 58 54 49 36 99 47 77 79 44 98 42 145 150 67 84 141 64 45 52 38 61 53 51 90 74 87 63 85 94 80 29 89 59 55 43 40 68 27 82 102 75 76 103 91 65 140 143 144 147 101</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_usbhs_library\device\class\dfu\Source\dfu_mem.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 174</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 177</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 186</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 86 147 30 57 58 3 39 41 56 195 49 53 51 36 99 54 38 61 90 47 74 95 87 77 63 100 85 79 94 96 80 44 29 66 89 98 59 46 55 42 43 37 40 145 68 104 27 150 82 62 102 67 75 92 76 84 103 69 91 141 65 83 140 64 143 152 144 45 34 88 70 101</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 91 61 85 57 40 38 53 41 90 89 102 144 86 70 51 87 80 55 27 76 140 88 147 30 34 58 3 54 39 74 63 94 29 59 43 68 82 75 103 65 143 56 195 49 36 99 47 95 77 100 79 96 44 66 98 46 42 37 145 104 150 62 67 92 84 69 141 83 64 152 45 101</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Firmware\CMSIS\GD\GD32H73x_75x\Source\IAR\startup_gd32h73x_75x.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 158</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Source\gd32h73x_75x_usart.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 166</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 188</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 156</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 152 57 58 3 39 41 56 195 49 53 51 36 99 54 38 61 90 47 74 95 87 77 63 100 85 79 94 96 80 44 29 66 89 98 59 46 55 42 43 37 40 145 68 104 27 150 82 62 102 67 75 92 76 84 103 69 91 141 65 83 140 64 143 144 45</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 79 141 57 99 145 3 47 98 67 45 58 41 49 36 77 44 42 150 84 64 38 61 53 51 56 195 95 100 96 66 46 37 104 62 92 69 83 152 54 39 90 74 87 63 85 94 80 29 89 59 55 43 40 68 27 82 102 75 76 103 91 65 140 143 144</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_usbhs_library\device\core\Source\usbd_core.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 172</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 191</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 128</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 52 28 31 30 57 58 3 39 41 56 195 49 53 51 36 99 54 38 61 90 47 74 95 87 77 63 100 85 79 94 96 80 44 29 66 89 98 59 46 55 42 43 37 40 145 68 104 27 150 82 62 102 67 75 92 76 84 103 69 91 141 65 83 140 64 143 152 144 45 34 142 35 81 147 106 72 101</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 57 56 3 83 39 96 34 104 195 95 46 92 147 106 28 142 100 66 37 62 69 152 35 31 30 58 54 49 36 99 47 77 79 44 98 42 145 150 67 84 141 64 45 81 101 52 38 61 53 51 41 90 74 87 63 85 94 80 29 89 59 55 43 40 68 27 82 102 75 76 103 91 65 140 143 144 72</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Source\gd32h73x_75x_timer.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 134</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 161</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 179</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 65 57 58 3 39 41 56 195 49 53 51 36 99 54 38 61 90 47 74 95 87 77 63 100 85 79 94 96 80 44 29 66 89 98 59 46 55 42 43 37 40 145 68 104 27 150 82 62 102 67 75 92 76 84 103 69 91 141 83 140 64 143 152 144 45</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 103 54 63 57 3 43 58 29 82 143 74 94 59 68 75 65 39 41 90 87 85 80 89 55 40 27 102 76 91 140 144 38 61 53 51 56 195 49 36 99 47 95 77 100 79 96 44 66 98 46 42 37 145 104 150 62 67 92 84 69 141 83 64 152 45</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_usbhs_library\device\core\Source\usbd_transc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 190</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 149</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 185</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 106 35 28 31 30 57 58 3 39 41 56 195 49 53 51 36 99 54 38 61 90 47 74 95 87 77 63 100 85 79 94 96 80 44 29 66 89 98 59 46 55 42 43 37 40 145 68 104 27 150 82 62 102 67 75 92 76 84 103 69 91 141 65 83 140 64 143 152 144 45 34 142 81 147 72 101 146</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 59 74 75 57 31 61 94 68 65 72 81 30 38 53 3 63 29 43 82 103 143 39 146 35 28 142 51 41 90 87 85 80 89 55 40 27 102 76 91 140 144 147 101 106 34 58 54 56 195 49 36 99 47 95 77 100 79 96 44 66 98 46 42 37 145 104 150 62 67 92 84 69 141 83 64 152 45</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_usbhs_library\driver\Source\drv_usbd_int.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 132</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 148</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 170</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 73 28 31 30 57 58 3 39 41 56 195 49 53 51 36 99 54 38 61 90 47 74 95 87 77 63 100 85 79 94 96 80 44 29 66 89 98 59 46 55 42 43 37 40 145 68 104 27 150 82 62 102 67 75 92 76 84 103 69 91 141 65 83 140 64 143 152 144 45 34 142 81 147 146 35 70 101</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 91 30 51 85 57 40 31 41 90 89 102 144 147 28 70 87 80 55 27 76 140 146 81 142 38 61 53 3 74 63 94 29 59 43 68 82 75 103 65 143 35 39 73 34 58 54 56 195 49 36 99 47 95 77 100 79 96 44 66 98 46 42 37 145 104 150 62 67 92 84 69 141 83 64 152 45 101</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_usbhs_library\device\core\Source\usbd_enum.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 126</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 183</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 138</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 106 35 28 31 30 57 58 3 39 41 56 195 49 53 51 36 99 54 38 61 90 47 74 95 87 77 63 100 85 79 94 96 80 44 29 66 89 98 59 46 55 42 43 37 40 145 68 104 27 150 82 62 102 67 75 92 76 84 103 69 91 141 65 83 140 64 143 152 144 45 34 142 81 147 72 101</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 42 54 49 77 84 57 34 58 3 36 44 150 64 99 47 79 98 145 67 141 45 28 30 41 35 142 39 56 195 95 100 96 66 46 37 104 62 92 69 83 152 72 81 31 38 61 53 51 90 74 87 63 85 94 80 29 89 59 55 43 40 68 27 82 102 75 76 103 91 65 140 143 144 147 101 106</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_usbhs_library\driver\Source\drv_usb_core.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 125</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 127</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 162</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 52 28 31 30 57 58 3 39 41 56 195 49 53 51 36 99 54 38 61 90 47 74 95 87 77 63 100 85 79 94 96 80 44 29 66 89 98 59 46 55 42 43 37 40 145 68 104 27 150 82 62 102 67 75 92 76 84 103 69 91 141 65 83 140 64 143 152 144 45 34 142</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 57 152 66 53 62 34 58 100 37 69 28 142 3 61 56 195 95 96 46 104 92 83 31 30 38 51 41 49 36 99 47 77 79 44 98 42 145 150 67 84 141 64 45 52 54 39 90 74 87 63 85 94 80 29 89 59 55 43 40 68 27 82 102 75 76 103 91 65 140 143 144</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_usbhs_library\device\class\dfu\Source\dfu_core.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 120</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 192</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 180</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 32 106 35 28 31 30 57 58 3 39 41 56 195 49 53 51 36 99 54 38 61 90 47 74 95 87 77 63 100 85 79 94 96 80 44 29 66 89 98 59 46 55 42 43 37 40 145 68 104 27 150 82 62 102 67 75 92 76 84 103 69 91 141 65 83 140 64 143 152 144 45 34 142 81 147 72 101 86 52 33 78</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 84 54 49 77 57 42 34 58 3 36 44 150 64 99 47 79 98 145 67 141 45 28 30 147 52 35 142 39 56 195 95 100 96 66 46 37 104 62 92 69 83 152 41 86 33 106 72 81 31 38 61 53 51 90 74 87 63 85 94 80 29 89 59 55 43 40 68 27 82 102 75 76 103 91 65 140 143 144 101 78 32</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\src\app.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 119</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 159</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 116</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 52 28 31 30 57 58 3 39 41 56 195 49 53 51 36 99 54 38 61 90 47 74 95 87 77 63 100 85 79 94 96 80 44 29 66 89 98 59 46 55 42 43 37 40 145 68 104 27 150 82 62 102 67 75 92 76 84 103 69 91 141 65 83 140 64 143 152 144 45 34 142 32 106 35 81 147 72 101</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 30 147 42 54 49 77 84 57 101 31 34 58 3 36 44 150 64 41 99 47 79 98 145 67 141 45 32 28 142 39 56 195 95 100 96 66 46 37 104 62 92 69 83 152 72 81 52 38 61 53 51 90 74 87 63 85 94 80 29 89 59 55 43 40 68 27 82 102 75 76 103 91 65 140 143 144 106 35</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\src\flash_if.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 113</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 184</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 136</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 88 86 147 30 57 58 3 39 41 56 195 49 53 51 36 99 54 38 61 90 47 74 95 87 77 63 100 85 79 94 96 80 44 29 66 89 98 59 46 55 42 43 37 40 145 68 104 27 150 82 62 102 67 75 92 76 84 103 69 91 141 65 83 140 64 143 152 144 45 34 50 71</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 195 57 95 92 147 46 34 58 3 54 39 56 96 104 83 30 100 66 37 62 69 152 50 86 38 61 53 51 49 36 99 47 77 79 44 98 42 145 150 67 84 141 64 45 88 41 90 74 87 63 85 94 80 29 89 59 55 43 40 68 27 82 102 75 76 103 91 65 140 143 144 71</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\src\gd32h73x_75x_it.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 114</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 155</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 193</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 93 30 57 58 3 39 41 56 195 49 53 51 36 99 54 38 61 90 47 74 95 87 77 63 100 85 79 94 96 80 44 29 66 89 98 59 46 55 42 43 37 40 145 68 104 27 150 82 62 102 67 75 92 76 84 103 69 91 141 65 83 140 64 143 152 144 45 34 73 28 31 142 81 147</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 143 57 29 34 58 3 82 54 63 43 103 28 74 94 59 68 75 65 30 73 38 61 53 51 39 41 90 87 85 80 89 55 40 27 102 76 91 140 144 142 93 56 195 49 36 99 47 95 77 100 79 96 44 66 98 46 42 37 145 104 150 62 67 92 84 69 141 83 64 152 45 81 31 147</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\src\gd32h73x_75x_usb_hw.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 153</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 175</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 164</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 52 28 31 30 57 58 3 39 41 56 195 49 53 51 36 99 54 38 61 90 47 74 95 87 77 63 100 85 79 94 96 80 44 29 66 89 98 59 46 55 42 43 37 40 145 68 104 27 150 82 62 102 67 75 92 76 84 103 69 91 141 65 83 140 64 143 152 144 45 34 142</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 57 152 66 62 51 100 37 69 142 30 38 61 53 56 195 3 95 96 46 104 92 83 28 31 34 58 41 49 36 99 47 77 79 44 98 42 145 150 67 84 141 64 45 52 54 39 90 74 87 63 85 94 80 29 89 59 55 43 40 68 27 82 102 75 76 103 91 65 140 143 144</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Utilities\gd32h759i_eval.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 107</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 178</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 187</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 34 57 58 3 39 41 56 195 49 53 51 36 99 54 38 61 90 47 74 95 87 77 63 100 85 79 94 96 80 44 29 66 89 98 59 46 55 42 43 37 40 145 68 104 27 150 82 62 102 67 75 92 76 84 103 69 91 141 65 83 140 64 143 152 144 45 70 101</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 40 85 91 57 58 3 54 41 90 89 102 144 39 56 87 80 55 27 76 140 70 38 61 53 51 74 63 94 29 59 43 68 82 75 103 65 143 34 195 49 36 99 47 95 77 100 79 96 44 66 98 46 42 37 145 104 150 62 67 92 84 69 141 83 64 152 45 101</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Source\gd32h73x_75x_efuse.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 118</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 181</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 124</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 44 57 58 3 39 41 56 195 49 53 51 36 99 54 38 61 90 47 74 95 87 77 63 100 85 79 94 96 80 29 66 89 98 59 46 55 42 43 37 40 145 68 104 27 150 82 62 102 67 75 92 76 84 103 69 91 141 65 83 140 64 143 152 144 45</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 62 38 53 66 152 57 61 56 195 3 100 37 69 51 41 49 36 95 96 46 104 92 83 58 54 39 99 47 77 79 44 98 42 145 150 67 84 141 64 45 90 74 87 63 85 94 80 29 89 59 55 43 40 68 27 82 102 75 76 103 91 65 140 143 144</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Source\gd32h73x_75x_exti.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 133</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 130</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 109</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 89 57 58 3 39 41 56 195 49 53 51 36 99 54 38 61 90 47 74 95 87 77 63 100 85 79 94 96 80 44 29 66 98 59 46 55 42 43 37 40 145 68 104 27 150 82 62 102 67 75 92 76 84 103 69 91 141 65 83 140 64 143 152 144 45</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 91 85 40 57 58 3 54 41 90 89 102 144 39 87 80 55 27 76 140 38 61 53 51 56 74 63 94 29 59 43 68 82 75 103 65 143 195 49 36 99 47 95 77 100 79 96 44 66 98 46 42 37 145 104 150 62 67 92 84 69 141 83 64 152 45</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Source\gd32h73x_75x_fmc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 129</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 176</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 163</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 59 57 58 3 39 41 56 195 49 53 51 36 99 54 38 61 90 47 74 95 87 77 63 100 85 79 94 96 80 44 29 66 89 98 46 55 42 43 37 40 145 68 104 27 150 82 62 102 67 75 92 76 84 103 69 91 141 65 83 140 64 143 152 144 45</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 62 57 58 3 66 152 100 37 69 56 195 95 96 46 104 92 83 38 61 53 51 41 49 36 99 47 77 79 44 98 42 145 150 67 84 141 64 45 59 54 39 90 74 87 63 85 94 80 29 89 55 43 40 68 27 82 102 75 76 103 91 65 140 143 144</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Source\gd32h73x_75x_misc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 111</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 131</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 165</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 150 57 58 3 39 41 56 195 49 53 51 36 99 54 38 61 90 47 74 95 87 77 63 100 85 79 94 96 80 44 29 66 89 98 59 46 55 42 43 37 40 145 68 104 27 82 62 102 67 75 92 76 84 103 69 91 141 65 83 140 64 143 152 144 45</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 102 57 90 41 89 144 58 3 54 85 40 91 39 87 80 55 27 76 140 38 61 53 51 56 195 49 36 74 63 94 29 59 43 68 82 75 103 65 143 150 99 47 95 77 100 79 96 44 66 98 46 42 37 145 104 62 67 92 84 69 141 83 64 152 45</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Source\gd32h73x_75x_pmu.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 139</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 171</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 115</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 102 57 58 3 39 41 56 195 49 53 51 36 99 54 38 61 90 47 74 95 87 77 63 100 85 79 94 96 80 44 29 66 89 98 59 46 55 42 43 37 40 145 68 104 27 150 82 62 67 75 92 76 84 103 69 91 141 65 83 140 64 143 152 144 45</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 57 40 41 85 91 51 90 89 102 144 38 61 53 56 87 80 55 27 76 140 58 3 54 39 74 63 94 29 59 43 68 82 75 103 65 143 195 49 36 99 47 95 77 100 79 96 44 66 98 46 42 37 145 104 150 62 67 92 84 69 141 83 64 152 45</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Source\gd32h73x_75x_rcu.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 121</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 168</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 123</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 75 57 58 3 39 41 56 195 49 53 51 36 99 54 38 61 90 47 74 95 87 77 63 100 85 79 94 96 80 44 29 66 89 98 59 46 55 42 43 37 40 145 68 104 27 150 82 62 102 67 92 76 84 103 69 91 141 65 83 140 64 143 152 144 45</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 57 77 49 84 42 41 36 44 150 64 51 99 47 79 98 145 67 141 45 38 61 53 56 195 3 95 100 96 66 46 37 104 62 92 69 83 152 75 58 54 39 90 74 87 63 85 94 80 29 89 59 55 43 40 68 27 82 102 76 103 91 65 140 143 144</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Firmware\CMSIS\GD\GD32H73x_75x\Source\system_gd32h73x_75x.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 117</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 189</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 173</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 57 58 3 39 41 56 195 49 53 51 36 99 54 38 61 90 47 74 95 87 77 63 100 85 79 94 96 80 44 29 66 89 98 59 46 55 42 43 37 40 145 68 104 27 150 82 62 102 67 75 92 76 84 103 69 91 141 65 83 140 64 143 152 144 45</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 3 59 74 75 57 39 94 68 65 58 54 63 29 43 82 103 143 38 61 53 51 41 56 90 87 85 80 89 55 40 27 102 76 91 140 144 195 49 36 99 47 95 77 100 79 96 44 66 98 46 42 37 145 104 150 62 67 92 84 69 141 83 64 152 45</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Source\gd32h73x_75x_gpio.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 151</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 182</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 135</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 55 57 58 3 39 41 56 195 49 53 51 36 99 54 38 61 90 47 74 95 87 77 63 100 85 79 94 96 80 44 29 66 89 98 59 46 42 43 37 40 145 68 104 27 150 82 62 102 67 75 92 76 84 103 69 91 141 65 83 140 64 143 152 144 45</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 57 42 49 77 84 58 3 54 36 44 150 64 39 99 47 79 98 145 67 141 45 38 61 53 51 41 56 195 95 100 96 66 46 37 104 62 92 69 83 152 55 90 74 87 63 85 94 80 29 89 59 43 40 68 27 82 102 75 76 103 91 65 140 143 144</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\..\..\..\Firmware\GD32H73x_75x_standard_peripheral\Source\gd32h73x_75x_syscfg.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 122</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 169</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 160</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 141 57 58 3 39 41 56 195 49 53 51 36 99 54 38 61 90 47 74 95 87 77 63 100 85 79 94 96 80 44 29 66 89 98 59 46 55 42 43 37 40 145 68 104 27 150 82 62 102 67 75 92 76 84 103 69 91 65 83 140 64 143 152 144 45</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 75 57 74 59 58 3 94 68 65 54 63 29 43 82 103 143 38 61 53 51 39 41 90 87 85 80 89 55 40 27 102 76 91 140 144 141 56 195 49 36 99 47 95 77 100 79 96 44 66 98 46 42 37 145 104 150 62 67 92 84 69 83 64 152 45</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\GD32H73x_75x_USBHS\Exe\dfu.out</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 167</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 105 119 120 174 125 110 132 113 107 118 133 129 151 114 111 139 121 122 134 166 153 158 117 172 126 190 97 60 154 196</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\GD32H73x_75x_USBHS\Exe\dfu.hex</name>
+            <inputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 105 119 120 174 125 110 132 113 107 118 133 129 151 114 111 139 121 122 134 166 153 158 117 172 126 190 97 60 154 48</file>
+                </tool>
+            </inputs>
+        </file>
+        <forcedrebuild>
+            <name>[REBUILD_ALL]</name>
+        </forcedrebuild>
+    </configuration>
+</project>

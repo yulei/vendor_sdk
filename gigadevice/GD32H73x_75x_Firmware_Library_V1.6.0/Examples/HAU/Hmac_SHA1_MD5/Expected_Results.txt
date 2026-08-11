@@ -1,0 +1,25 @@
+
+ message input:
+
+CHN GigaDevice Semiconductor IncCHN GigaDevice Semiconductor IncCHN GigaDevice Semiconductor IncCHN GigaDevice Semiconductor IncCHN GigaDevice Semiconductor IncCHN GigaDevice Semiconductor IncCHN GigaDevice Semiconductor IncCHN GigaDevice Semiconductor IncCHN
+
+ key input:
+
+ABCDEFGHIJKLMNOPABCDEFGHIJKLMNOPABCDEFGHIJKLMNOPABCDEFGHIJKLMNOPABCDEFGHIJKLMNOPABCDEFGHIJKLMNOPABCDEFGHIJKLMNOPABCDEFGHIJKLMNOP 
+
+SHA1 message digest (160 bits):
+
+ 0xDD 0x29 0x87 0xE3
+ 0xDC 0xAC 0xE2 0x16
+ 0xE0 0x0D 0xEB 0x0B
+ 0xB1 0xE9 0xE6 0xB4
+ 0xA7 0x07 0xD1 0x4B
+ 
+
+MD5 Message Digest (128 bits):
+
+ 0xDF 0x9F 0x9E 0x3A
+ 0xFE 0x46 0x2B 0x0E
+ 0xB4 0xF2 0xCB 0x96
+ 0xBA 0xEE 0xF0 0xA6
+
