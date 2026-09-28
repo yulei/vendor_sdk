@@ -46,3 +46,6 @@
 [submodule "nuvoton/m460"]
 	path = nuvoton/m460
 	url = https://github.com/OpenNuvoton/m460bsp.git
+[submodule "wch/ch32h417"]
+	path = wch/ch32h417
+	url = https://github.com/openwch/ch32h417.git
