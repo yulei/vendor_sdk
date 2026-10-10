@@ -1209,7 +1209,7 @@ FlagStatus ob_iospeed_optimize_get(void)
 uint32_t ob_itcm_shared_ram_size_get(void)
 {
     uint32_t itcm_size_value;
-    uint32_t itcm_kb_size;
+    uint32_t itcm_kb_size = 0U;
 
     itcm_size_value = (uint32_t)((uint32_t)FMC_OBSTAT1_EFT & FMC_OBSTAT1_EFT_ITCM_SZ_SHRRAM);
 
@@ -1250,7 +1250,7 @@ uint32_t ob_itcm_shared_ram_size_get(void)
 uint32_t ob_dtcm_shared_ram_size_get(void)
 {
     uint32_t dtcm_size_value;
-    uint32_t dtcm_kb_size;
+    uint32_t dtcm_kb_size = 0U;
 
     dtcm_size_value = (uint32_t)((uint32_t)FMC_OBSTAT1_EFT & FMC_OBSTAT1_EFT_DTCM_SZ_SHRRAM);
 

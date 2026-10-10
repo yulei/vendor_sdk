@@ -197,7 +197,7 @@ void timer_struct_para_init(timer_parameter_struct *initpara)
     \param[out] none
     \retval     none
 */
-void timer_init(uint32_t timer_periph, timer_parameter_struct *initpara)
+void timer_init_gd32(uint32_t timer_periph, timer_parameter_struct *initpara)
 {
     /* configure the counter prescaler value */
     TIMER_PSC(timer_periph) = (uint16_t)initpara->prescaler;

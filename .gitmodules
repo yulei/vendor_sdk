@@ -49,3 +49,9 @@
 [submodule "wch/ch32h417"]
 	path = wch/ch32h417
 	url = https://github.com/openwch/ch32h417.git
+[submodule "wch/ch32v307"]
+	path = wch/ch32v307
+	url = https://github.com/openwch/ch32v307.git
+[submodule "wch/wch-support-cherryusb"]
+	path = wch/wch-support-cherryusb
+	url = https://github.com/Links0617/wch-support-cherryusb.git
